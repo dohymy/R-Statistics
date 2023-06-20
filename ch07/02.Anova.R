@@ -1,5 +1,5 @@
 ### 일원 분산분석(ANOVA: Analysis of Variance)
-ad = read.csv('data/age.data.csv')
+ad = read.csv('d:/workspaceR/data/age.data.csv')
 head(ad)
 tail(ad)
 ad$scale = factor(ad$scale)
